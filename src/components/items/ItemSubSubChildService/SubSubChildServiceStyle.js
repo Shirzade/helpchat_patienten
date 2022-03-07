@@ -1,0 +1,100 @@
+import { StyleSheet, Dimensions, Platform } from "react-native";
+import colors from "../../../utils/common/colors";
+import fonts from "../../../utils/common/fonts";
+
+export default SubSubChildService = StyleSheet.create({
+	container: {
+		width: "95%",
+		flex: 1,
+		flexDirection: "row",
+		justifyContent: "center",
+		alignItems: "center",
+	},
+	containerSwitch: {
+		flex: 1,
+		alignItems: "flex-end",
+	},
+	containerInfo: {
+		flex: 1.3,
+		height: 80,
+		backgroundColor: colors.colorWhite,
+		flexDirection: "row",
+		margin: 10,
+		borderRadius: 10,
+		justifyContent: "space-between",
+		alignContent: "center",
+		alignItems: "center",
+		shadowColor: colors.colorBlack,
+		shadowOffset: {
+			width: 0,
+			height: 12,
+		},
+		shadowOpacity: 0.58,
+		shadowRadius: 16.0,
+		elevation: Platform.OS == "android" ? 5 : 24,
+		shadowOffset: {
+			width: 0,
+			height: 4,
+		},
+		shadowOpacity: 0.3,
+		shadowRadius: 4.65,
+	},
+	containerActive: {
+		flex: 1.3,
+		height: 80,
+		flexDirection: "row",
+		backgroundColor: colors.colorWhite,
+		borderWidth: 1,
+		borderColor: colors.colorBarButton,
+		margin: 10,
+		borderRadius: 10,
+		justifyContent: "center",
+		alignContent: "center",
+		alignItems: "center",
+		shadowColor: colors.colorBlack,
+		shadowOffset: {
+			width: 0,
+			height: 12,
+		},
+		shadowOpacity: 0.58,
+		shadowRadius: 16.0,
+		elevation: Platform.OS == "android" ? 5 : 24,
+		shadowOffset: {
+			width: 0,
+			height: 4,
+		},
+		shadowOpacity: 0.3,
+		shadowRadius: 4.65,
+	},
+	labelStyle: {
+		fontSize: 13,
+		fontFamily: fonts.fontMain,
+	},
+	containerImg: {
+		backgroundColor: colors.colorGrayTwo,
+		width: 60,
+		height: 60,
+		justifyContent: "center",
+		alignItems: "center",
+		borderRadius: 50,
+		marginLeft: 20,
+	},
+	imgStyle: {
+		width: 45,
+		height: 45,
+		resizeMode: "contain",
+	},
+	containerTitle: {
+		flex: 1,
+		paddingLeft: 20,
+		flexDirection: "row",
+		justifyContent: "space-between",
+		alignItems: "center",
+		paddingRight: 20,
+	},
+	subImgStyle: {
+		position: "absolute",
+		top: 40,
+		right: 0,
+	},
+});

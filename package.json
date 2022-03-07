@@ -1,0 +1,54 @@
+{
+  "name": "helpchat_patienten",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/netinfo": "^5.9.10",
+    "@types/redux-logger": "^3.0.8",
+    "i18n-js": "^3.8.0",
+    "lodash.memoize": "^4.1.2",
+    "native-base": "^2.13.14",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-base64": "^0.1.0",
+    "react-native-camera": "^3.44.3",
+    "react-native-event-listeners": "^1.0.7",
+    "react-native-extended-stylesheet": "^0.12.0",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-localize": "^2.0.1",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-root-siblings": "^4.0.6",
+    "react-native-root-toast": "^3.2.1",
+    "react-native-router-flux": "^4.2.0",
+    "react-native-screens": "^2.15.0",
+    "react-native-shadow": "^1.2.2",
+    "react-native-svg": "^12.1.0",
+    "react-native-system-setting": "^1.7.6",
+    "react-native-vector-icons": "^8.1.0",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "toggle-switch-react-native": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
